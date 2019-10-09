@@ -4,7 +4,7 @@ using Test
 
 @testset "MooreJuliaMultigrid.jl" begin
     # Write your own tests here.
-    n = 100
+    n = 10
     h = 1/n
     d = 2*ones(n)
     dl = -1*ones(n-1)
